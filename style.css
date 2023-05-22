@@ -1,13 +1,17 @@
 body {
   background-color: #d6e1f0;
+  font-family: "Outfit", sans-serif;
 }
 img {
   width: 100%;
   object-fit: cover;
   border-radius: 10px;
 }
+p {
+  margin: 0;
+}
 .container {
-  max-width: 300px;
+  max-width: 330px;
   margin: 0 auto;
   margin-top: 20vh;
   text-align: center;
@@ -17,14 +21,24 @@ img {
   border: 1px solid white;
   padding: 15px;
   border-radius: 14px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.content {
+  margin-right: 6px;
+  margin-left: 6px;
 }
 .main-text {
-  padding-top: 20px;
-  font-weight: bold;
-  font-size: 20px;
-  color: #191a1c;
+  padding-top: 15px;
+  font-weight: 700;
+  font-size: 25px;
+  color: hsl(218, 44%, 22%);
 }
 .text-sub {
-  font-weight: lighter;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 400;
   font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  margin-right: 6px;
+  margin-left: 6px;
 }
