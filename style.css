@@ -1,0 +1,30 @@
+body {
+  background-color: #d6e1f0;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.container {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 20vh;
+  text-align: center;
+}
+.card {
+  background-color: white;
+  border: 1px solid white;
+  padding: 15px;
+  border-radius: 14px;
+}
+.main-text {
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #191a1c;
+}
+.text-sub {
+  font-weight: lighter;
+  font-size: 15px;
+}
